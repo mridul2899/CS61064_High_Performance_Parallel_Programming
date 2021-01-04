@@ -1,0 +1,9 @@
+Read one input.png file (http://www.libpng.org/pub/png/book/chapter13.html) in master node.
+
+Distribute the image among the available nodes.
+
+Perform histogram equalization on the whole image.
+
+On the histogram equalized image apply Sobel operator.
+
+Combine the image in master to store before (histeql.pgm) and after applying sobel oprator (final.pgm) (http://netpbm.sourceforge.net/doc/pgm.html)

@@ -1,0 +1,1 @@
+Implement MPI_Bcast, using MPI_Send and MPI_Recv in a tree like fashion (as discussed in the class) and check their efficiency by varying processor numbers 2, 4, 8. Upload your program file (Pre1Asgn3_rollno.c).

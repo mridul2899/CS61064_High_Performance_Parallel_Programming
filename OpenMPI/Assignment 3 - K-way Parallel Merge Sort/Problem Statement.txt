@@ -1,0 +1,23 @@
+Assignment #3 will not be evaluated if PreAssignment #3 and PreAssignment #3_2 is not submitted.
+
+
+
+Implement k-way (assume k=2) Parallel Merge Sort in MPI. Follow the below mentioned instructions.
+
+
+1. Ask for 8 nodes.
+
+2. Generate 1 billion random integer numbers (using lehmer random number generator) in MPI environment. Explain the best possible way for the generation.
+
+3. Divide the number into two parts – list1, list2.
+
+4. Create two subgroups (subgrp1, subgrp2) each consists of 4 nodes.
+
+5. Sort list1 (using parallel merge sort) in subgrp1.
+
+6. Sort list2 (using parallel merge sort) in subgrp2.
+
+7. Merge list1 and list2. Explain the best possible way of merging two sorted lists (list1 and list2) using parallel MPI environment.
+
+
+Upload your explanation file (Asgn3_rollno.txt) and program file (Asgn3_rollno.c).

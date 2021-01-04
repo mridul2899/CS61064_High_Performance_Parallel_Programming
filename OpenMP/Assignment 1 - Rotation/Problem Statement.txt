@@ -1,0 +1,29 @@
+Problem Definition: Given an object (consists of a number of points) in three-dimensional (3D) space, rotate it about an arbitrary vector/axis.
+
+Input: An arbitary axis and an object with N points, where each point is having three coordinates (X,Y,Z). Both are supplied in as files from the command line.
+
+Output: Rotate the object about the given arbitrary axis.
+
+Implementation: OpenMP C. Your program will read number of threads from command line.
+
+Upload: Name your program file as firstroll_secondroll.c and upload in moodle from firstroll's login. No need to upload from second roll.
+
+Marks will be duplicated in second roll from the first roll.
+
+Sample program execution is:
+
+./a.out number_of_threads filename4arbitraryAxis filename4objectFile angleOFrotatoin
+
+Assumptions:
+1. Sample test sets for filename4arbitraryAxis and filename4objectFile are provided.
+2. No scaling/shear is allowed during transformation. Make sure the shape of the object remains same before and after the transformation.
+3. In each step apply either translation or rotation about one axis. Do not multiply the rotation/transformation matrix to reduce number of steps in execution.
+
+Marks:
+1. Input/Output:                    10
+2. Test on supplied sample test set:            15
+3. Test on benchmark test set:                25
+4. Scalability of your program on 1, 2, 4, 8 threads:    20
+5. Best computation time (in percentile):         30
+
+All the modules must be correctly parallelized.

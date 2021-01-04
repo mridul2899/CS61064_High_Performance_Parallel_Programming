@@ -1,0 +1,13 @@
+Implement the CUDA program for the assignment available at http://cse.iitkgp.ac.in/~soumya/hp3/assignment1_0.html.
+
+
+
+A few extra points
+
+1. You are supposed to identify the number of elements  of the array from the incomplete grid and block dimensions of the problem.
+
+2. Your program should be able to take as input two floating point arrays of the same size. We are going to test with only one input case. So don't keep a scanf statement for the number of test cases.
+
+3. Your program should produce one output array (space separated floating point values upto two decimal places only)
+
+4. We shall test with cases such that Nan values do not occur.
